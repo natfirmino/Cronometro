@@ -1,0 +1,44 @@
+body {
+    background: hsl(253, 66%, 15%);
+    font-family: 'Sarala' sans-serif;
+    height: 100%;
+}
+
+.wrapper {
+    width: 800px;
+    margin: 250px auto;
+    color: white;
+    text-align: center;
+}
+
+#seconds,
+#tens {
+    font-size: 2em;
+}
+
+button {
+    background: white;
+    border: none;
+    border-radius: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 1.2em;
+    padding: 18px 10px;
+    margin: 10px;
+    outline: none;
+    width: 180px;
+    height: 60px;
+    box-shadow: 4px 5px 4px rgb(0, 0, 0);
+}
+
+#button-start:hover {
+    background: rgb(28, 236, 73);
+}
+
+#button-stop:hover {
+    background: rgb(236, 30, 30);
+}
+
+#button-reset:hover {
+    background: rgb(35, 35, 241)
+}
